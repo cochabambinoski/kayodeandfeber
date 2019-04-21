@@ -1,0 +1,36 @@
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header li {
+    float: right;
+    border-right: 1px solid #bbb;
+    position: sticky;
+}
+
+header li:last-child {
+    border-right: none;
+}
+
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header li a:hover {
+    background-color: #111;
+}
+
+#container {
+    margin-top: 60px;
+}
